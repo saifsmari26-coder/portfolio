@@ -1,0 +1,17 @@
+function uniquementLettres(x)
+{
+	// on peut utiliser cette fonction pour vérifier si le paramètre x est composé uniquement par des lettres alphabétiques
+	x=x.toUpperCase()
+    var i=0
+    while (x.charAt(i)>="A" && x.charAt(i)<="Z" && i<x.length) 
+				i++
+	return i == x.length
+}
+
+function verif1()
+  {
+    var numPermis = document.getElementById("numPermis").value  // récupérer la valeur du numéro du permis
+    var nom = document.getElementById("nom").value              // récupérer la valeur du nom
+	var prenom = document.getElementById("prenom").value  // récupérer la valeur du prenom
+	
+  }

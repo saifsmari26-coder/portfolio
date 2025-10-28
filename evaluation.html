@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mesSstyles.css">
+    
+</head>
+<body>
+    <form action="evaluation.php" method="post">
+        <fieldset>
+            <legend>Evaluation d'un modele : </legend>
+            <label for="">N° Peremis : </label><input id="nump" name="nump" type="text">
+            <label for=""> Modele teste :</label> <select name="idmodele" id="idmodele">
+                <option value="">Choisir un modele</option>
+                <option value="15">WALLIS IRIS</option>
+                <option value="26">WALLIS 619</option>
+                <option value="38">WALLIS 216</option>
+            </select><br>
+            <label for="">Notes attribuees : </label><br>
+            <label for="">Securite:</label><input id="sc" name="sc" type="text">
+            <label for="">Conduite</label>:</label><input id="co" name="co" type="text">
+            <label for="">Confort:</label><input id="conf" name="conf" type="text"><br>
+            <label for="">Je ne suis pas un robot :</label><input id="rob" type="checkbox"><br>
+            <input type="reset" value="Annuler">
+            <input type="submit" value="Valider">
+            </fieldset></form>
+    </body>
+</body>
+</html>

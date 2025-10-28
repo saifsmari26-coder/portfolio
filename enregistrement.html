@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="mesStyles.css" />
+  </head>
+  <body>
+    <form action="enregistrement.php" method="post">
+      <fieldset>
+        <legend>Enregistrement d'un testeur:</legend>
+        <label for="">N° Permis:</label>
+        <input type="text" name="nump" id="nump" size="10" /><br />
+        <label for="">Nom:</label>
+        <input type="text" name="nom" id="nom" /><br />
+        <label for="">Prénom:</label>
+        <input type="text" name="pr" id="pr" /><br />
+        <label for="">Genre:</label>
+        <input type="radio" name="g" id="g1" value="F" />Féminin
+        <input type="radio" name="g" id="g2" value="M" />Masculin <br />
+        <label for="">Ville:</label>
+        <select name="idville" id="idville">
+          <option value="">choisir Ville</option>
+          <option value="1">Gafsa</option>
+          <option value="2">kef</option>
+          <option value="3">Sousse</option>
+          <option value="4">Tunis</option>
+        </select>
+        <br />
+        <input type="reset" value="Annuler" />
+        <input type="submit" value="Ajouter" />
+      </fieldset>
+    </form>
+  </body>
+</html>

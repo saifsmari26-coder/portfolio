@@ -1,29 +1,78 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title></title>
-    <meta charset="utf-8" />
-    <link rel="stylesheet" type="text/css" href="mesStyle.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Saif Smari Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
-      <img src="Equipment-Leasing.jpg" id="logo" />
-      <h1>Location d'équipement</h1>
+      <nav>
+        <h1>Saif Smari Portfolio</h1>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
     </header>
-    <nav>
-      <ul>
-        <li><a href="location.html" target="z3">Location</a></li>
-        <li><a href="retoure.html" target="z3">Retour</a></li>
-      </ul>
-    </nav>
-    <section>
-      <iframe src="location.html" name="z3"></iframe>
+
+    <section class="hero">
+      <div class="hero-text">
+        <h2>Hi, I'm <span>Saif Smari</span></h2>
+        <p>Frontend Developer | HTML & CSS Enthusiast</p>
+        <a href="#projects" class="btn">See My Work</a>
+      </div>
     </section>
-    <aside>
-      <img src="publicité.jpg" />
-    </aside>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I'm a web developer passionate about creating clean and responsive
+        websites. I focus on building user-friendly designs with HTML & CSS.
+      </p>
+    </section>
+
+    <section id="projects">
+      <h2>My Projects</h2>
+      <div class="projects-grid">
+        <div class="card">
+          <img src="images/project1.png" alt="Project 1" />
+          <h3>My First Project</h3>
+          <ul>
+            <li><a href="index12.html" target="_blank">Projet 1</a></li>
+          </ul>
+          <p>This is the project I sent earlier.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/project2.png" alt="Project 2" />
+        <h3>My Second Project</h3>
+        <ul>
+          <li><a href="index3.html" target="_blank">Projet 2</a></li>
+        </ul>
+        <p>This is the project I sent earlier.</p>
+      </div>
+    </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p>
+        Phone : <a hre="tel:+216 24937920">+216 24937920</a><br />
+        Email:<a href="mailto:saifsmari26@gmail.com">saifsmari26@gmail.com</a>
+      </p>
+      <p>
+        GitHub:
+        <a href="https://github.com/yourusername" target="_blank"
+          >@yourusername</a
+        >
+      </p>
+    </section>
+
     <footer>
-      <p>coopyright@4SI bac 2025</p>
+      <p>© 2025 Saif Smari. All rights reserved.</p>
     </footer>
   </body>
 </html>

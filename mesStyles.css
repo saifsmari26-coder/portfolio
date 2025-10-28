@@ -1,0 +1,39 @@
+header{
+	background-color: #808000;
+}
+footer {
+	background-color: #00FF00;
+}
+nav {
+	background-color: #FFCCFF;
+	width: 30%;
+	height: 480px;
+	float: left;
+}
+section {
+	background-color: #FFCCFF;
+	width: 70%;
+	height: 480px;
+	float: left;
+}
+iframe {
+	width: 99%;
+	height: 470px;
+}
+h1{
+	text-align: center;
+	transition: color 5s;
+}
+h1:hover{
+	color: blue;
+}
+label{
+display: inline-block;
+width: 120px;
+margin: 10px;
+
+}
+#nump,#nom,#pr{
+	background-color: yellow;
+	font-size: 16px;
+}
